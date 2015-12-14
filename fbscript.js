@@ -1,11 +1,10 @@
 //By Richard Mable
-
 window.onload = function(){
 	//listens for click of "FizzBuzz" button
-	document.getElementById("go").addEventListener("click", function(){
+	document.getElementById("v1").addEventListener("click", function(){
 		//loop to count to 100
-		for (var i = 0; i <= 100; i++) {
-			//if 15.  This is placed first to avoid print just Fizz or Buzz, since those
+		for (var i = 1; i <= 100; i++) {
+			//if 15: This is placed first to avoid print just Fizz or Buzz, since those
 			//will also give no remainder.  The rest of the lines create the text and place it
 			//in the div printOut.
 			if (i % 15 == 0){
